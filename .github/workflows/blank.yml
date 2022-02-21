@@ -38,4 +38,4 @@ jobs:
           java-version: "8"
           distribution: "zulu"
       - name: "print java --version"
-        run: java --version
+        run: java -version
