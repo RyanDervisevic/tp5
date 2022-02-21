@@ -36,5 +36,6 @@ jobs:
         uses: 'actions/setup-java@v2'
         with:
           java-version: "8"
+          distribution: "zulu"
       - name: "print java --version"
-        run: java --versio
+        run: java -version
