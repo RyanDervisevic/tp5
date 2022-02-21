@@ -37,4 +37,4 @@ jobs:
         with:
           java-version: "8"
       - name: "print java --version"
-        run: java --version
+        run: java --versio
