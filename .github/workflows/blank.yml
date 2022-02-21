@@ -31,3 +31,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: 'Install Java'
+        uses: 'actions/setup-java@v2'
+        with:
+          java-version: "8"
+      - name: "print java --version"
+        run: java --version
